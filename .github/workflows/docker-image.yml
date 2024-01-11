@@ -54,5 +54,5 @@ jobs:
           sudo -S docker load < /tmp/mywebsite08.tar.gz
           sudo -S docker stop mywebsite08 || true
           sudo -S docker rm mywebsite08 || true
-          sudo -S docker run -itd -p 9001:80 mywebsite08:latest
+          sudo -S docker run -itd -p 8082:80 mywebsite08:latest
         '
